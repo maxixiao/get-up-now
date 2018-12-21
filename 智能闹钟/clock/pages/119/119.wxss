@@ -1,0 +1,30 @@
+.group{
+  display:flex;
+  flex-direction:row;
+   width: 100%;
+  top: 50%;
+  font-weight:bold;
+}
+
+.i{
+  color: saddlebrown;
+  border:solid 1px #da7c0c;
+  width: 100%;
+  top: 50%;
+  text-align:center;
+  font-size: 60rpx;
+}
+
+.btn1{
+border-width: thick ;
+font-size: 32rpx;
+}
+
+.btn2{
+border-width: thick ;
+}
+
+.btn3{
+border-width: thick ;
+}
+

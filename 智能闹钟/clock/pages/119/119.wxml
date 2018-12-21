@@ -1,0 +1,31 @@
+<!--wxml-->
+
+<view class="i">还不起床吗</view>
+
+<button id="btn1" 
+bindtap="send6">第一束光</button>
+<text id="text1">当前亮度：({{lx}}/255)</text>
+<input maxlength="10" id="input" placeholder="设置亮度" 
+placeholder-style="font-size:15px; color:#bfbfbf;" 
+style="font-weight:bolder; font-size:15px; color:#000000; padding-left: 30rpx"
+  bindinput="change3"/>
+<button id="btn2" 
+bindtap="send2">加大灯泡亮度</button>
+<button id="btn3"  bindtap="send3">减小灯泡亮度</button>
+<text id="text1">闹钟时间：{{ah}}：{{am}} </text><button id="btn4"  bindtap="send4"> 状态:{{status}}</button>
+<view class="naozhong">
+<text id="text">输入新闹钟时间：</text>
+<input maxlength="10" id="input" placeholder="时" 
+placeholder-style="font-size:15px; color:#bfbfbf;" 
+style="font-weight:bolder; font-size:15px; color:#000000; padding-left: 30rpx"
+  bindinput="change1"/>
+  <input maxlength="10" id="input" placeholder="分" 
+placeholder-style="font-size:15px; color:#bfbfbf;" 
+style="font-weight:bolder; font-size:15px; color:#000000; padding-left: 30rpx"
+  bindinput="change2"/>
+  </view>
+
+  <button id="btn3" style="opacity: {{opacity}}" 
+disabled="{{disabled}}" bindtap="send5">发送请求</button>
+<text id="text1">宿舍环境亮度：{{lox}}【300低800高】
+</text>
